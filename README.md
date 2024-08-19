@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Dashboard
+
+A modern web dashboard built with Next.js and React.
+
+## Project Overview
+
+This dashboard application is designed to provide a sleek and interactive user interface for data visualization and management. It leverages the power of Next.js for server-side rendering and optimized performance.
+
+## Features
+
+- Responsive design using Tailwind CSS
+- Interactive UI components with Radix UI
+- Data visualization with Recharts
+- Form handling with React Hook Form
+- PDF generation with jsPDF
+- Dark mode support with next-themes
+- Type-safe development with TypeScript
 
 ## Getting Started
 
-First, run the development server:
+To run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open http://localhost:8080 in your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Scripts
+npm run dev: Starts the development server on port 8080
+npm run build: Builds the application for production
+npm run start: Starts the production server
+npm run lint: Runs the linter to check for code quality issues
+Dependencies
+Key dependencies include:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Next.js 14.2.5
+React 18
+Radix UI components
+TanStack React Table
+Recharts
+Tailwind CSS
+For a full list of dependencies, please refer to the package.json file.
 
-## Learn More
+Development
+This project uses TypeScript for type safety. ESLint is configured for code quality checks.
 
-To learn more about Next.js, take a look at the following resources:
+Deployment
+This Next.js app can be easily deployed on platforms like Vercel. Refer to the Next.js documentation for detailed deployment instructions.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Contributing
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+License
+This project is private and not open for public use or distribution.
